@@ -1,0 +1,46 @@
+:root {
+    --main-mono-bg-color: #02225d;
+    --main-mono-h1-color: #FFFFFF;
+    --main-mono-sub-color: #a1afc7;
+    --main-mono-blue-light: #3f67ff;
+    --main-mono-blue-intense: #0F2457;
+}
+
+.main-container {
+    background: rgb(25,22,62);
+    background: linear-gradient(0deg, rgba(25,22,62,1) 0%, rgba(0,38,102,1) 100%);
+    min-height: 100%;
+    display: block;
+}
+
+.h1-wht {
+    font-weight: 600;
+    color: var(--main-mono-h1-color)
+}
+
+.sub-gry {
+    font-weight: 400;
+    color: var(--main-mono-sub-color)
+}
+
+.ltl-text {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.mono-gray {
+    color: var(--main-mono-sub-color);
+}
+
+
+.icon-next {
+    margin-left: 6px;
+}
+
+.next-container {
+    background-color: #3f67ff;
+    width: 65px;
+    height: 65px;
+    border: #3f67ff 2px solid;
+    border-radius: 50%;
+}
