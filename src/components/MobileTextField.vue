@@ -2,6 +2,8 @@
     <div class="flex">
         <div class="w-11/12 h-20 field text-left field-radius flex flex-wrap"
              :class="{'field-focus': textFocus}"
+             @focusin="textFocus = true"
+             @focusout="textFocus = false"
              @mouseenter="focusText()"
              @mouseleave="focusText()">
             <div class="w-full flex justify-end">
